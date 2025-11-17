@@ -139,11 +139,11 @@ Results on ScanNet semantic segmentation:
 
 | Retention Ratio | Tokens Retained | mIoU (%) | GFLOPs | Checkpoint |
 |----------------|----------------|----------|--------|------------|
-| Baseline (r=1.0) | 100% | 78.9 | 105.0 | To be uploaded |
-| r=0.95 | 95% | 78.5 | 57.5 | To be uploaded |
-| r=0.90 | 90% | 78.8 | 62.0 | To be uploaded |
-| r=0.80 | 80% | 79.2 | 72.5 | To be uploaded |
-| r=0.70 | 70% | 79.5 | 86.1 | To be uploaded |
+| Baseline (r=1.0) | 100% | 78.9 | 206 | To be uploaded |
+| r=0.95 | 95% | 78.5 | 50 | To be uploaded |
+| r=0.90 | 90% | 78.8 | 53 | To be uploaded |
+| r=0.80 | 80% | 79.2 | 59 | To be uploaded |
+| r=0.70 | 70% | 79.5 | 67 | To be uploaded |
 
 *Up to 21% reduction in computational cost with minimal accuracy loss*
 
