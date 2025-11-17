@@ -37,7 +37,7 @@ Roger Wattenhofer<sup>5</sup>,
 <br>
 
 <p align="center">
-  <img src="assets/feature_pca_merging.gif" alt="Feature PCA at different merging rates" width="600">
+  <img src="assets/feature_pca_merging.gif" alt="Feature PCA at different merging rates" width="50%">
   <br>
   <em>Feature PCA visualization at different merging rates (0.15 to 0.95) showing minimal change in learned representations</em>
 </p>
