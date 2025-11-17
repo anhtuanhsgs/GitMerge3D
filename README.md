@@ -37,9 +37,10 @@
 <br>
 
 <p align="center">
-  <img src="assets/feature_pca_merging.gif" alt="Feature PCA at different merging rates" width="50%">
+  <img src="assets/feature_pca_merging.gif" alt="Feature PCA Layer 5-21" width="45%" style="display: inline-block; margin: 5px;">
+  <img src="assets/feature_pca_merging_2.gif" alt="Feature PCA Layer 5-20" width="45%" style="display: inline-block; margin: 5px;">
   <br>
-  <em>Feature PCA visualization at different merging rates (0.15 to 0.95) showing minimal change in learned representations</em>
+  <em>Feature PCA visualizations across different merging rates (0.15 to 0.95) demonstrating that learned representations remain distinctive and unchanged despite aggressive token reduction</em>
 </p>
 
 ## Installation
