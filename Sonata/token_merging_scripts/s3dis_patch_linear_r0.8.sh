@@ -7,3 +7,4 @@ sh scripts/train.sh \
     -c gitmerge3d-patch-r80-s3dis-lin \
     -n gitmerge3d-patch-r80-s3dis-lin \
     -w exp/sonata/pretrain-sonata-v1m1-0-base/model/model_last.pth
+sh

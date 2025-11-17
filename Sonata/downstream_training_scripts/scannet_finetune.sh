@@ -1,5 +1,5 @@
 #!/bin/bash
-export WANDB_API_KEY=a76d38994faa879f744dc9b7d5617c4e80c6f784
+export WANDB_API_KEY=""
 export config=$1
 echo $config
 source /root/miniconda3/etc/profile.d/conda.sh
