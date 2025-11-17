@@ -1,40 +1,40 @@
-# How Many Tokens Do 3D Point Cloud Transformer Architectures Really Need?
-
 <p align="center">
-  <a href="https://gitmerge3d.github.io/">Project Page</a> •
-  <a href="https://openreview.net/">Paper</a> •
-  <a href="https://github.com/anhtuanhsgs/GitMerge3D">Code</a>
-</p>
-
-**NeurIPS 2025**
-
-**Tuan Anh Tran**<sup>1</sup>,
-**Duy Minh Ho Nguyen**<sup>2,3</sup>,
-**Hoai-Chau Tran**<sup>4</sup>,
-**Michael Barz**<sup>1</sup>,
-**Khoa D. Doan**<sup>4</sup>,
-**Roger Wattenhofer**<sup>5</sup>,
-**Vien Anh Ngo**<sup>6</sup>,
-**Mathias Niepert**<sup>2,3</sup>,
-**Daniel Sonntag**<sup>1,7</sup>,
-**Paul Swoboda**<sup>8</sup>
-
-<sup>1</sup>DFKI,
-<sup>2</sup>IMPRS-IS,
-<sup>3</sup>University of Stuttgart,
-<sup>4</sup>VinUniversity,
+ <h1 align="center">How Many Tokens Do 3D Point Cloud Transformer Architectures Really Need?</h1>
+<p align="center">
+<a href="https://scholar.google.com/citations?user=5-0hLggAAAAJ&hl=en">Tuan Anh Tran</a><sup>1</sup>,
+<a href="https://duyhominhnguyen.github.io/">Duy Minh Ho Nguyen</a><sup>2,3</sup>,
+<a href="https://hchautran.github.io/">Hoai-Chau Tran</a><sup>4</sup>,
+Michael Barz<sup>1</sup>,
+Khoa D. Doan<sup>4</sup>,
+Roger Wattenhofer<sup>5</sup>,
+<a href="https://vienngo.github.io/">Vien Anh Ngo</a><sup>6</sup>,
+<a href="https://www.matlog.net/">Mathias Niepert</a><sup>2,3</sup>,
+<a href="https://www.dfki.de/~daso02/">Daniel Sonntag</a><sup>1,7</sup>,
+<a href="https://www.sarmata.hhu.de/">Paul Swoboda</a><sup>8</sup>
+<br>
+<sup>1</sup>German Research Centre for Artificial Intelligence (DFKI),
+<sup>2</sup>Max Planck Research School for Intelligent Systems (IMPRS-IS),
+<sup>3</sup>University of Stuttgart
+<br>
+<sup>4</sup>College of Engineering and Computer Science, VinUniversity,
 <sup>5</sup>ETH Zurich,
-<sup>6</sup>VinRobotics, Hanoi,
+<sup>6</sup>VinRobotics, Hanoi, Vietnam
+<br>
 <sup>7</sup>University of Oldenburg,
 <sup>8</sup>Heinrich Heine University Düsseldorf
-
----
-
-<p align="center">
-  <img src="assets/Teaser_Figure.png" alt="GitMerge3D Teaser" width="800">
+</p>
+<h2 align="center">NeurIPS 2025</h2>
+<h3 align="center"><a href="https://github.com/anhtuanhsgs/GitMerge3D">Code</a> | <a href="https://openreview.net/">Paper</a> | <a href="https://gitmerge3d.github.io/">Project Page</a></h3>
+<div align="center"></div>
 </p>
 
-GitMerge3D enables merging of up to 80-95% of tokens, substantially reducing computational and memory costs while preserving model performance.
+<p align="center">
+  <img src="assets/Teaser_Figure.png" alt="GitMerge3D Teaser" width="100%">
+</p>
+<p align="center">
+<strong>GitMerge3D</strong> enables merging of up to 80-95% of tokens, substantially reducing computational and memory costs while preserving model performance.
+</p>
+<br>
 
 <p align="center">
   <img src="assets/feature_pca_merging.gif" alt="Feature PCA at different merging rates" width="600">
