@@ -23,7 +23,7 @@
 <sup>7</sup>University of Oldenburg,
 <sup>8</sup>Heinrich Heine University Düsseldorf
 </p>
-<h2 align="center">NeurIPS 2025</h2>
+<h2 align="center"><a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/117114">NeurIPS 2025</a></h2>
 <h3 align="center"><a href="https://github.com/anhtuanhsgs/GitMerge3D">Code</a> | <a href="https://openreview.net/pdf?id=cFVQJepi4e">Paper</a> | <a href="https://gitmerge3d.github.io/">Project Page</a></h3>
 <div align="center"></div>
 </p>
