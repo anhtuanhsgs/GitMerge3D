@@ -24,7 +24,7 @@
 <sup>8</sup>Heinrich Heine University Düsseldorf
 </p>
 <h2 align="center">NeurIPS 2025</h2>
-<h3 align="center"><a href="https://github.com/anhtuanhsgs/GitMerge3D">Code</a> | <a href="https://openreview.net/">Paper</a> | <a href="https://gitmerge3d.github.io/">Project Page</a></h3>
+<h3 align="center"><a href="https://github.com/anhtuanhsgs/GitMerge3D">Code</a> | <a href="https://openreview.net/pdf?id=cFVQJepi4e">Paper</a> | <a href="https://gitmerge3d.github.io/">Project Page</a></h3>
 <div align="center"></div>
 </p>
 
