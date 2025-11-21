@@ -43,7 +43,45 @@
   <em>Feature PCA visualizations across different merging rates (0.15 to 0.95) demonstrating that learned representations remain distinctive or unchanged despite aggressive token reduction</em>
 </p>
 
-## Installation
+## A. Documentation
+
+- **[Token Merging Evaluation Guide](Sonata/TOKEN_MERGING_EVALUATION_GUIDE.md)**: How to evaluate models and measure GFLOPs
+- **[Token Merging Training Guide](Sonata/FINETUNING_TOKEN_MERGING_GUIDE.md)**: Fine-tuning with token merging
+- **[Training Guide](Sonata/TRAINING_GUIDE.md)**: Baseline training without token merging
+- **[Evaluation Scripts](Sonata/token_merging_evaluation/)**: Ready-to-use evaluation tools
+
+## B. Project Structure
+
+```
+GitMerge3D/
+├── Sonata/                                    # Main codebase
+│   ├── configs/sonata/                       # Token merging configurations
+│   ├── pointcept/
+│   │   └── models/point_transformer_v3/
+│   │       └── token_merging_algos.py        # Core merging algorithms
+│   ├── tools/                                # Training and testing scripts
+│   ├── token_merging_evaluation/             # Evaluation scripts
+│   ├── TOKEN_MERGING_EVALUATION_GUIDE.md
+│   ├── FINETUNING_TOKEN_MERGING_GUIDE.md
+│   └── README.md                             # Base installation guide
+└── README.md                                  # This file
+```
+
+## C. Roadmap
+
+### Current Release
+- [x] **Code for Sonata (Pointcept v1.6.0)** - Token merging implementation with Sonata backbone
+- [x] Training scripts and configurations
+- [x] Evaluation tools and documentation
+
+### Coming Soon
+- [ ] **Model Checkpoints** - Pre-trained weights for all retention ratios (r=0.7, 0.8, 0.9, 0.95)
+- [ ] **SpatialLM Integration** - Code and checkpoints for SpatialLM with token merging
+- [ ] **PTv3 (Pointcept v1.5.1)** - Code and checkpoints for Point Transformer V3 baseline
+
+Stay tuned for updates!
+
+## D. Installation
 
 ### Requirements
 - Ubuntu: 18.04 and above
@@ -86,7 +124,7 @@
    - S3DIS
    - ScanNet200
 
-## Quick Start
+## E. Quick Start
 
 ### Training with Token Merging
 
@@ -133,7 +171,7 @@ python run_cal_flops_sweep.py \
     --gpu 0
 ```
 
-## Performance
+## F. Performance
 
 Results on ScanNet semantic segmentation:
 
@@ -146,44 +184,6 @@ Results on ScanNet semantic segmentation:
 | r=0.70 | 70% | 79.5 | 67 | To be uploaded |
 
 *Up to 21% reduction in computational cost with minimal accuracy loss*
-
-## Documentation
-
-- **[Token Merging Evaluation Guide](Sonata/TOKEN_MERGING_EVALUATION_GUIDE.md)**: How to evaluate models and measure GFLOPs
-- **[Token Merging Training Guide](Sonata/FINETUNING_TOKEN_MERGING_GUIDE.md)**: Fine-tuning with token merging
-- **[Training Guide](Sonata/TRAINING_GUIDE.md)**: Baseline training without token merging
-- **[Evaluation Scripts](Sonata/token_merging_evaluation/)**: Ready-to-use evaluation tools
-
-## Project Structure
-
-```
-GitMerge3D/
-├── Sonata/                                    # Main codebase
-│   ├── configs/sonata/                       # Token merging configurations
-│   ├── pointcept/
-│   │   └── models/point_transformer_v3/
-│   │       └── token_merging_algos.py        # Core merging algorithms
-│   ├── tools/                                # Training and testing scripts
-│   ├── token_merging_evaluation/             # Evaluation scripts
-│   ├── TOKEN_MERGING_EVALUATION_GUIDE.md
-│   ├── FINETUNING_TOKEN_MERGING_GUIDE.md
-│   └── README.md                             # Base installation guide
-└── README.md                                  # This file
-```
-
-## Roadmap
-
-### Current Release
-- [x] **Code for Sonata (Pointcept v1.6.0)** - Token merging implementation with Sonata backbone
-- [x] Training scripts and configurations
-- [x] Evaluation tools and documentation
-
-### Coming Soon
-- [ ] **Model Checkpoints** - Pre-trained weights for all retention ratios (r=0.7, 0.8, 0.9, 0.95)
-- [ ] **SpatialLM Integration** - Code and checkpoints for SpatialLM with token merging
-- [ ] **PTv3 (Pointcept v1.5.1)** - Code and checkpoints for Point Transformer V3 baseline
-
-Stay tuned for updates!
 
 ## Citation
 
